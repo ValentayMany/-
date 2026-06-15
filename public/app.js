@@ -394,7 +394,7 @@ function renderRosterGrid() {
   // HEADER ROW 1: General categories & dates
   html += '<thead>';
   html += '  <tr>';
-  html += '    <th rowspan="2" style="width: 45px;">ສ/ດ</th>';
+  html += '    <th rowspan="2" style="width: 45px;">ລ/ດ</th>';
   html += '    <th rowspan="2" style="width: 180px;">ຊື່ ແລະ ນາມສະກຸນ</th>';
   html += '    <th rowspan="2" style="width: 100px;">ພະແນກ</th>';
 
