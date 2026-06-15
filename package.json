@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-    "build": "echo 'No build step required'"
+    "build": "node -e \"const fs = require('fs'); if (process.platform !== 'win32') { fs.cpSync('public', 'Public', { recursive: true }); } else { console.log('Skipping copy on Windows'); }\""
   },
   "keywords": [
     "nurse",
