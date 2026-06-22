@@ -1,3 +1,0 @@
-# Cloudflare Pages Redirects / Proxy
-# Replace the backend URL with your actual hosted Express API URL (e.g., https://your-backend-api.onrender.com)
-/api/* https://your-backend-api-url.com/api/:splat 307

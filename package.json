@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-    "build": "node -e \"const fs = require('fs'); if (process.platform !== 'win32') { fs.cpSync('public', 'Public', { recursive: true }); } else { console.log('Skipping copy on Windows'); }\""
+    "build": "node -e \"console.log('Cloudflare Worker uses public/ as static assets; no build step required.')\"",
+    "worker:dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy"
   },
   "keywords": [
     "nurse",
